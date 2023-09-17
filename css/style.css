@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: yekan;
+}
+
+@font-face {
+    font-family: 'yekan';
+    src: url('../fonts/Yekan.ttf')
+}
+
+body{
+    font-family: yekan;
+}
+.header{
+    height: 550px;
+    background-image:url(../photos/p1.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+    padding-top: 30px;
+    text-align: center;
+}
+.header .nav-list{
+    list-style-type: none;
+    text-align: center;
+
+}
+
+.header .nav-list .nav-item{
+    display: inline-block;
+    padding: 20px;
+
+}
+
+.header .nav-list .nav-item:hover{
+    color: orange;
+
+}
+
+.header h1{
+    font-size: 60px;
+    margin-top: 90px;
+
+}
+.header h1 span{
+    color:orange ;
+}
+
+.header .desc{
+    font-size: 25px;
+    width: 450px;
+    margin: auto;
+    height:55px ;
+    background-color: rgb(2, 15, 38, .6);
+    line-height: 55px;
+    border-radius: 20px;
+    border: solid rgb(150, 148, 148);
+    margin-top: 25px;
+}
+
+.members{
+    text-align: center;
+    padding: 50px 30px;
+
+}
+
+.member-list{
+    list-style-type: none;
+    margin-top:25px ;
+
+
+}
+
+.member-item{
+    width:350px ;
+    display: inline-block;
+    margin: 10px;
+    box-shadow: 10 10 15 black
+
+
+}
+
+.member-pic{
+    width: 100%;
+}
+
+.member-name{
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.member-bio{
+    padding: 30px;
+    text-align: justify;
+    
+}
+.about{
+    height: 700px;
+    background-image: url(../photos/a1.jpg);
+    background-size: cover;
+    padding-top: 50px;
+    background-color:rgb(118, 117, 117);
+    background-blend-mode: multiply;
+}
+
+.circle{
+    width: 600px;
+    height:600px ;
+    background-color: rgba(118, 246, 255, 0.608);
+    margin: auto;
+    border-radius: 50%;
+    text-align: center;
+    padding: 100px 120px;
+
+}
+
+.circle p{
+    margin-top:40px;
+    text-align: justify;
+}
+
+.circle h2{
+    font-size: 35px;
+
+}
+
+
+.pa{
+    display: inline-block;
+    width: 450px;
+    height: 80px;
+    padding-top: 20px;
+    font-size: 40px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    background-color: rgb(199, 199, 199);
+    font-family: yekan;
+    margin-left: 10px;
+    padding-left: 10px;
+}
